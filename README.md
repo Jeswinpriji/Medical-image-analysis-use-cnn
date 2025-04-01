@@ -3,10 +3,11 @@ This repository contains our Medical Imaging Analysis project, which uses Convol
 # 🏥 Medical Imaging Analysis Using CNNs
 
 ## 📌 Overview
-This project focuses on **Medical Imaging Analysis** using **Convolutional Neural Networks (CNNs)** to classify **MRI, CT, and X-ray** scans for disease detection. The model processes medical images and provides predictions to assist in diagnosis.
+This project focuses on **Medical Imaging Analysis** using **Convolutional Neural Networks (CNNs)** to classify **MRI, CT, and X-ray** scans for detecting various diseases, not limited to brain tumors. The model processes medical images and provides predictions to assist in diagnosis.
 
 ## 🚀 Features
 - 🩻 Supports **MRI, CT, and X-ray** image classification
+- 🏥 Detects multiple diseases across different imaging modalities
 - 🧠 Deep learning-based disease detection using CNNs
 - 🔄 Batch processing for handling multiple scans efficiently
 - 🌐 Web interface using **Flask, HTML, and CSS**
@@ -84,10 +85,10 @@ The dataset for this project is available on Kaggle. You can download it by foll
 1️⃣ **Create a Kaggle account** if you don't have one already: [Sign up for Kaggle](https://www.kaggle.com/).
 
 2️⃣ **Download the dataset** from the Kaggle website:
-- Go to the [RSNA-MICCAI Brain Tumor Classification AI dataset page](https://www.kaggle.com/datasets/your-dataset-link) or the relevant dataset you are using.
+- Go to the [Kaggle Medical Imaging Datasets](https://www.kaggle.com/) and search for datasets related to MRI, CT, and X-ray scans.
 - Click on the 'Download' button to get the dataset.
 
-3️⃣ After downloading, unzip the dataset and place it in the `/data/raw/` directory of your project. The dataset should contain folders like `glioma_tumor`, `meningioma_tumor`, etc., which will be used for training the model.
+3️⃣ After downloading, unzip the dataset and place it in the `/data/raw/` directory of your project. The dataset should contain labeled folders for different diseases, which will be used for training the model.
 
 ## 📊 Model Performance
 - 📈 **MRI Accuracy:** 88%
@@ -107,5 +108,6 @@ We welcome contributions! Feel free to open issues or submit pull requests.
 This project is licensed under the MIT License.
 
 🔗 **GitHub Repo:** [https://github.com/yourusername/medical-imaging-analysis](https://github.com/yourusername/medical-imaging-analysis)
+
 
 
