@@ -54,9 +54,9 @@ http://localhost:5000
 ```
 
 ## 📊 Model Performance
-- 📈 **MRI Accuracy:** 88% (Loss: XX)
-- 📈 **CT Accuracy:** 91% (Loss: XX)
-- 📈 **X-ray Accuracy:** 92% (Loss: XX)
+- 📈 **MRI Accuracy:** 88% 
+- 📈 **CT Accuracy:** 91% 
+- 📈 **X-ray Accuracy:** 92% 
 
 ## 🔍 Future Enhancements
 - 🏥 Integration with **hospital databases** for real-world testing
